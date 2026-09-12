@@ -17,7 +17,7 @@ The Students table contains:
 - gender_student
 - Email_student
 - Study Level
-- Track 
+- academic_Track 
 - GPA
 
 ### Teachers
