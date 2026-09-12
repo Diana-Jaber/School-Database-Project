@@ -11,30 +11,30 @@ The database is designed to store and manage information about students, teacher
 ### Students
 
 The Students table contains:
--  ID
+- ID
 - Student Name
 - Birthdate_student
-- gender_student
+- Gender_student
 - Email_student
 - Study Level
-- academic_Track 
+- Academic_Track 
 - GPA
 
 ### Teachers
 
 The Teachers table contains:
-- Teacher ID
-- Teacher Name
-- Birth Date
-- Gender
-- Email
-- Office Number
+- ID
+- Teacher_name
+- Birth_teacher
+- Gender_teacher
+- Email_teacher
+- Office_number
 
-### Subjects
+### Classes
 
-The Subjects table contains:
-- Subject ID
-- Subject Name
+The Classes table contains:
+- Class_id
+- Class_name
 
 ## Project Requirements
 
