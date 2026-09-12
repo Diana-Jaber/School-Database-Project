@@ -11,13 +11,13 @@ The database is designed to store and manage information about students, teacher
 ### Students
 
 The Students table contains:
-- Student ID
+-  ID
 - Student Name
-- Birth Date
-- Gender
-- Email
+- Birthdate_student
+- gender_student
+- Email_student
 - Study Level
-- Track
+- Track 
 - GPA
 
 ### Teachers
