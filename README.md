@@ -36,17 +36,31 @@ The Classes table contains:
 - Class_id
 - Class_name
 
+
+## Database Relationships
+
+* **Subjects & Teachers (1:N):** A teacher teaches one subject, while a subject can be taught by multiple teachers.
+* **Teachers & Students (N:M):** Linked using `teacher_students` junction table.
+* **Students & Subjects (N:M):** Linked using `student_subjects` junction table.
+
+
 ## Project Requirements
 
-- Creating the database
-- Creating tables
-- Displaying available tables
-- Inserting data for students, teachers, and subjects
-- Displaying table contents
-- Sorting students by name in ascending order
-- Updating student email
-- Updating teacher office number
-- Using comments to explain SQL commands
+* Creating the database.
+* Creating tables.
+* Displaying available tables.
+* Inserting data for students, teachers, and subjects.
+* Displaying table contents.
+* Sorting students by name in ascending order.
+* Updating student email.
+* Updating teacher office number.
+* Using comments to explain SQL commands.
+* Implementing N:M relationships using junction tables (teacher_students, student_subjects).
+* Implementing 1:N relationship between subjects and teachers.
+* Creating and executing the `student_info` Stored Procedure.
+* Creating, displaying, and dropping the `teacher_info` View.
+* Creating, verifying, and dropping the `search_studentname` Index.
+
 
 ## Technologies
 
