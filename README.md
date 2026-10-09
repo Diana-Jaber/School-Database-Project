@@ -12,10 +12,10 @@ The database stores information about students, teachers, and classes.
 - Student_name
 - Birthdate_student
 - Gender_student
-- Email_student
-- Study_level
 - Academic_track
 - GPA
+- Study_level
+- Std_email
 
 ### Teachers
 - ID
@@ -30,18 +30,22 @@ The database stores information about students, teachers, and classes.
 - Class_id
 - Class_name
 
-### teacher_students (junction table)
-- Teacher_id
+### teacher_student (junction table)
 - Student_id
+- Teacher_id
 
 ### student_classes (junction table)
 - Student_id
 - Class_id
 
+### Extra Tables
+- `Topstudent`: students with GPA above 90.
+- `failed_students`: students with GPA below 60.
+
 ## Database Relationships
 
 - **Classes & Teachers (1:N):** A teacher teaches one class, but one class can have many teachers.
-- **Teachers & Students (N:M):** Connected using the `teacher_students` table.
+- **Teachers & Students (N:M):** Connected using the `teacher_student` table.
 - **Students & Classes (N:M):** Connected using the `student_classes` table.
 
 ## What I Did in This Project
