@@ -48,6 +48,10 @@ The database stores information about students, teachers, and classes.
 - **Teachers & Students (N:M):** Connected using the `teacher_student` table.
 - **Students & Classes (N:M):** Connected using the `student_classes` table.
 
+## Database Diagram
+<img width="809" height="947" alt="diagram" src="https://github.com/user-attachments/assets/ce1a7667-acae-4b3a-b19f-802590f9a4be" />
+
+
 ## What I Did in This Project
 
 - Created the database.
